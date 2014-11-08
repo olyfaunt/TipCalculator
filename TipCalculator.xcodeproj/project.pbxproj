@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99B7324119F240220068F7BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7324019F240220068F7BF /* QuartzCore.framework */; };
 		99ECAA0519F1800B006FBA6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ECAA0419F1800B006FBA6B /* main.m */; };
 		99ECAA0819F1800B006FBA6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ECAA0719F1800B006FBA6B /* AppDelegate.m */; };
 		99ECAA0B19F1800B006FBA6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ECAA0A19F1800B006FBA6B /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99B7324019F240220068F7BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		99ECA9FF19F1800B006FBA6B /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ECAA0319F1800B006FBA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99ECAA0419F1800B006FBA6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B7324119F240220068F7BF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		99ECA9F619F1800B006FBA6B = {
 			isa = PBXGroup;
 			children = (
+				99B7324019F240220068F7BF /* QuartzCore.framework */,
 				99ECAA0119F1800B006FBA6B /* TipCalculator */,
 				99ECAA1B19F1800B006FBA6B /* TipCalculatorTests */,
 				99ECAA0019F1800B006FBA6B /* Products */,
@@ -412,6 +416,7 @@
 				99ECAA2419F1800B006FBA6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99ECAA2519F1800B006FBA6B /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				99ECAA2719F1800B006FBA6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
